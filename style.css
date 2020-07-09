@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container-body{
+    padding-top: 200px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    padding-top: 100px;
+}
+.nav-item{
+    font-size: 18px;
+    padding-left:30px;
+    padding-right:30px;
+    color: #00BFF2; /*not change text color*/
+}
+.nav-item:hover{
+    font-weight: 700;
+    color: #00BFF2;  /*not change text color*/
+
+/*=Hadder body  Part====*/
+}
+.body-item-align{
+    text-align: center;
+   font-size: 25px;
+}
+.Stands-format{
+    font-size: 100px;
+    font-weight: 700;
+}
+#stand-build1{
+    border: solid 0.05px #00BFF2;
+    color: #00BFF2;
+    background-color: none;
+    padding: 5px 30px 5px 30px;
+    font-size: 16px;
+    margin: 15px;
+}
+#stand-build1:hover{
+    background-color: #00BFF2;
+    color: white;
+}
+#stand-build2{
+    border: none;
+    background-color: #F0C01B;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    font-size: 16px;
+    margin: 15px;   
+}
+#stand-build2:hover{
+    background-color: #00BFF2;
+}
+
+/*=Hadder body Box Part====*/
+.hadder-box{
+    display: table;
+    margin: auto;
+    background-color: #293140;
+    height: 660px;
+    width: 1000px;
+}
+.easy-left-text{
+    margin: 80px;
+}
+
+.easy-text{
+    color: white;
+    text-align: justify;
+    margin: 40px;
+    position: relative;
+    left: 15%;
+    bottom: 30px;
+}
+.easy-div{
+    position: relative;
+    left: 5%;
+}
